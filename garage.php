@@ -127,67 +127,67 @@ $fila2 = $resultado2->fetch_assoc();
         } elseif ($id == 10) {
         ?>
             <div class="d-flex flex-column ">
-                <img src="images/eleanor.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
+                <img src="images/blue.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
             </div>
         <?php
         } elseif ($id == 11) {
         ?>
             <div class="d-flex flex-column ">
-                <img src="images/eleanor.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
+                <img src="images/aston.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
             </div>
         <?php
         } elseif ($id == 12) {
         ?>
             <div class="d-flex flex-column ">
-                <img src="images/eleanor.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
+                <img src="images/aston2.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
             </div>
         <?php
         } elseif ($id == 13) {
         ?>
             <div class="d-flex flex-column ">
-                <img src="images/eleanor.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
+                <img src="images/cartman.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
             </div>
         <?php
         } elseif ($id == 14) {
         ?>
             <div class="d-flex flex-column ">
-                <img src="images/eleanor.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
+                <img src="images/inazuma.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
             </div>
         <?php
         } elseif ($id == 15) {
         ?>
             <div class="d-flex flex-column ">
-                <img src="images/eleanor.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
+                <img src="images/mini.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
             </div>
         <?php
         } elseif ($id == 16) {
         ?>
             <div class="d-flex flex-column ">
-                <img src="images/eleanor.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
+                <img src="images/fiat.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
             </div>
         <?php
         } elseif ($id == 17) {
         ?>
             <div class="d-flex flex-column ">
-                <img src="images/eleanor.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
+                <img src="images/seville.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
             </div>
         <?php
         } elseif ($id == 18) {
         ?>
             <div class="d-flex flex-column ">
-                <img src="images/eleanor.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
+                <img src="images/beetle.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
             </div>
         <?php
         } elseif ($id == 19) {
         ?>
             <div class="d-flex flex-column ">
-                <img src="images/eleanor.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
+                <img src="images/civic.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
             </div>
         <?php
         } else {
         ?>
             <div class="d-flex flex-column ">
-                <img src="images/eleanor.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
+                <img src="images/sonic.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
             </div>
         <?php
         }
