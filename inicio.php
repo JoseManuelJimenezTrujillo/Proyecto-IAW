@@ -17,7 +17,7 @@ $resultado2 = $mysqli->query($sql2);
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery.dataTables.min.css">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
 
 
     <!-- Optional JavaScript -->
@@ -29,8 +29,7 @@ $resultado2 = $mysqli->query($sql2);
     <title>Crazy-Drivers</title>
 
     <header>
-
-        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar navbar-negro">
             <h1 class="navbar-brand">Crazy-Drivers</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -65,8 +64,8 @@ $resultado2 = $mysqli->query($sql2);
 		</div> -->
         <div class="d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center" style="width:100%">
             <div class="tabla alig-items-center " style="width:85%; margin: auto;">
-                <h1>Proximas Carerras</h1>
-                <table id="tabla" class="table table-primary " style="width:100%">
+                <h1 class="titulo1 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center">Proximas Carerras</h1>
+                <table id="tabla" class="table table-primary" style="width:100%">
                     <thead>
                         <tr class="table-primary">
                             <th>Nombre</th>
@@ -91,6 +90,159 @@ $resultado2 = $mysqli->query($sql2);
                     </tbody>
                 </table>
             </div>
+                    </div>      
+<!-- aqui creo una seccion que hará de introduccion a la siguiente -->
+<section class="py-3"> 
+        <div class="col">
+            <header class="">
+                <div class="container text-center">
+                    <h2>Secciones</h2>
+                </div>
+            </header>
+        </div>
+
+    </section>
+
+<!-- creo unas cajas-cartas que cada una ocupara la mitad de la liena y al ser mas pequeña la pantalla se pone una debajo de la otra
+y le incluido transicionespara hacerla mas atractiva -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Prueba</h4>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ducimus dolorem alias harum aperiam ea, natus doloribus dolorum non aspernatur ipsum nihil? Quam, cupiditate veritatis pariatur asperiores dicta dolorum optio. </p><br>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia obcaecati consequuntur ducimus quod qui minus sapiente. Incidunt molestias quis esse, eveniet ut fugit maiores, recusandae facilis mollitia ipsa minima. Itaque?</p>
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- esta incluye un enlace que te dirige a su correspondiente parte de la pagina -->
+                            <h4 class="card-title">Prueba2</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis non possimus, blanditiis minima nemo est porro harum aut obcaecati voluptatum asperiores excepturi, tempora suscipit numquam odit vero explicabo magnam voluptatibus.</p>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat at ullam natus repellendus expedita eos. Optio blanditiis voluptatibus labore, perferendis sunt ipsum temporibus at, tempora cumque animi, vitae explicabo repellat! </p>
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-thumbs-up fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+<!-- esta seccion haria de introduccion a la siguiente y le añado un color negro -->
+    <section class="py-5 bg-dark">
+        <a name="trabajos" id="trabajos"></a>
+        <div class="col">
+            <header class="">
+                <div class="container text-center">
+                    <h2 class="trabajos">Patrocinadores</h2>
+                    <br>
+                </div>
+            </header>
+        </div>
+        <!-- consta de 5 cajas-cartas las cuales estan centradas, al principio tres compartiran linea y tambien pero en otra
+        cuando la pantalla se hace mas pequeña compartiran linea de dos en dos y cuando sean mas pequeña iran de a uno,
+        ademas las imagenes de las cajas-cartas son enlaces a videos, al pulsarlo ira al video sin salir de la pagina(blank)
+        y las imagenes tienen el valor strench para que sean lo mas similares en tamaño -->
+        <div class="container overflow-hidden">
+            <div class="row gy-3 justify-content-center">
+                <div class="col-md-4 col-sm-6 d-flex align-items-strech">
+                    <div class="card">
+                       
+                            <a href="https://www.elpozo.com" target="_blank" ><img src="images/elpozo.jpg" class="img-thumbnail" alt="montesion"></a>
+                 
+                        <div class="card-body">
+                            <h4 class="card-title">Elpozo</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 d-flex align-items-strech">
+                    <div class="card">
+                       
+                            <a href="https://www.youtube.com/watch?v=MgKgPniW-5I&t=162s&ab_channel=ManuMontero" target="_blank" ><img src="img/esperanza1.png" class="img-thumbnail" alt="esperanza"></a>
+                       
+                        <div class="card-body">
+                            <h4 class="card-title">Mercedes</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 d-flex align-items-strech">
+                    <div class="card">
+                        
+                            <a href="https://www.youtube.com/watch?v=0BGDm6EWzEs&ab_channel=ArahalNazarena" target="_blank" ><img src="img/misericordia.jpg" class="img-thumbnail" alt="misericordia"></a>
+                       
+                        <div class="card-body">
+                            <h4 class="card-title">Tesla</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 d-flex align-items-strech">
+                    <div class="card">
+                       
+                            <a href="https://www.youtube.com/watch?v=O7mJQ_h2ySc&ab_channel=APulso"  target="_blank" ><img src="img/hiniesta.jpg" class="img-thumbnail" alt="hiniesta"></a>
+                       
+                        <div class="card-body">
+                            <h4 class="card-title">Finetwork</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 d-flex align-items-strech">
+                    <div class="card">
+                       
+                            <a href="https://www.youtube.com/watch?v=1gUCu2e_JiM&ab_channel=arfasynt~" target="_blank" ><img src="img/2.jpg" class="img-thumbnail" alt="adivina" id="Sorpresa" ></a>
+                        
+                        <div class="card-body">
+                            <h4 class="card-title">Riot</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- esta seria la ultima seccion, es del tipo email, en la que el titulo esta centrado y le dado al boton
+     una apariencia que le pegue a la pagina ademas de que al pasar el puntero por encima se vuelva dorado las letras  -->
+    <section class="py-5">
+        <a name="contacto" id="contacto"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <h2 class=" d-flex justify-content-center">Contáctanos</h2>
+                    <form class="d-grid gap-3">
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email"
+                                placeholder="Ingresa tu correo electrónico">
+                        </div>
+                        <button type="submit" class="btn btn-dark boton">Enviar</button>
+                    </form>
+                </div>
+                
+    </section>
+<!-- al footer le doy una apariencia de fondo negro con letras blancas y que los enlaces esten centrados
+y al pasar el puntero se cambia el color a dorado -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="row">
+                    <ul class="list-inline text-md-center">
+                        <li class="list-inline-item"><a href="#">Política de privacidad</a></li>
+                        <li class="list-inline-item"><a href="#">Términos y condiciones</a></li>
+                    </ul>
+                
+            </div>
+        </div>
+    </footer>
 
 
 
