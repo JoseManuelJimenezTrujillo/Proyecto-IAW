@@ -91,7 +91,7 @@ $resultado2 = $mysqli->query($sql2);
                 </table>
             </div>
                     </div>      
-<!-- aqui creo una seccion que hará de introduccion a la siguiente -->
+
 <section class="py-3"> 
         <div class="col">
             <header class="">
@@ -103,8 +103,7 @@ $resultado2 = $mysqli->query($sql2);
 
     </section>
 
-<!-- creo unas cajas-cartas que cada una ocupara la mitad de la liena y al ser mas pequeña la pantalla se pone una debajo de la otra
-y le incluido transicionespara hacerla mas atractiva -->
+
     <section class="py-5">
         <div class="container">
             <div class="row">
@@ -124,7 +123,8 @@ y le incluido transicionespara hacerla mas atractiva -->
                 <div class="col-md-6">
                     <div class="card">
                         <div class="card-body">
-                            <!-- esta incluye un enlace que te dirige a su correspondiente parte de la pagina -->
+
+
                             <h4 class="card-title">Prueba2</h4>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis non possimus, blanditiis minima nemo est porro harum aut obcaecati voluptatum asperiores excepturi, tempora suscipit numquam odit vero explicabo magnam voluptatibus.</p>
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat at ullam natus repellendus expedita eos. Optio blanditiis voluptatibus labore, perferendis sunt ipsum temporibus at, tempora cumque animi, vitae explicabo repellat! </p>
@@ -140,7 +140,7 @@ y le incluido transicionespara hacerla mas atractiva -->
     </section>
 
  
-<!-- esta seccion haria de introduccion a la siguiente y le añado un color negro -->
+
     <section class="py-5 bg-dark">
         <a name="trabajos" id="trabajos"></a>
         <div class="col">
@@ -151,10 +151,8 @@ y le incluido transicionespara hacerla mas atractiva -->
                 </div>
             </header>
         </div>
-        <!-- consta de 5 cajas-cartas las cuales estan centradas, al principio tres compartiran linea y tambien pero en otra
-        cuando la pantalla se hace mas pequeña compartiran linea de dos en dos y cuando sean mas pequeña iran de a uno,
-        ademas las imagenes de las cajas-cartas son enlaces a videos, al pulsarlo ira al video sin salir de la pagina(blank)
-        y las imagenes tienen el valor strench para que sean lo mas similares en tamaño -->
+   
+
         <div class="container overflow-hidden">
             <div class="row gy-3 justify-content-center">
                 <div class="col-md-4 col-sm-6 d-flex align-items-strech">
@@ -210,8 +208,6 @@ y le incluido transicionespara hacerla mas atractiva -->
         </div>
     </section>
 
-    <!-- esta seria la ultima seccion, es del tipo email, en la que el titulo esta centrado y le dado al boton
-     una apariencia que le pegue a la pagina ademas de que al pasar el puntero por encima se vuelva dorado las letras  -->
     <section class="py-5">
         <a name="contacto" id="contacto"></a>
         <div class="container">
@@ -229,8 +225,8 @@ y le incluido transicionespara hacerla mas atractiva -->
                 </div>
                 
     </section>
-<!-- al footer le doy una apariencia de fondo negro con letras blancas y que los enlaces esten centrados
-y al pasar el puntero se cambia el color a dorado -->
+
+
     <footer class="bg-dark text-white py-3">
         <div class="container">
             <div class="row">
