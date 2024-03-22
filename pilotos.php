@@ -15,7 +15,7 @@ $resultado = $mysqli->query($sql);
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery.dataTables.min.css">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
 
 
     <!-- Optional JavaScript -->
@@ -28,9 +28,10 @@ $resultado = $mysqli->query($sql);
 
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar bg-dark">
             <h1 class="navbar-brand">Crazy-Drivers</h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -40,7 +41,8 @@ $resultado = $mysqli->query($sql);
                         <a class="nav-link" href="inicio.php">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Acciones
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -58,12 +60,12 @@ $resultado = $mysqli->query($sql);
 
 <body>
     <div class="container-fluid ">
-        <!-- <div class="row">
-			<a class='btn btn-primary' href='registrar.php'>Registrar</a>
-		</div> -->
-        <div class="d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center" style="width:100%">
+        <div class="d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center"
+            style="width:100%">
             <div class="tabla alig-items-center " style="width:85%; margin: auto;">
-                <h1>Pilotos</h1>
+            <h1
+                    class="titulo1 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center">
+                    Pilotos</h1>
                 <table id="tabla" class="table table-primary " style="width:100%">
                     <thead>
                         <tr class="table-primary">
@@ -73,10 +75,10 @@ $resultado = $mysqli->query($sql);
                     </thead>
                     <tbody>
                         <?php
-    
+
                         while ($fila = $resultado->fetch_assoc()) {
                             echo "<tr class='table'>";
-                            echo "<td><a href='garage.php?id=$fila[id_piloto]'>$fila[Nombre]</a></td>";
+                            echo "<td><a href='garage.php?id=$fila[id_piloto]' class='link'>$fila[Nombre]</a></td>";
                             echo "<td>$fila[Equipo]</td>";
                             echo "</tr>";
                         }
@@ -84,7 +86,108 @@ $resultado = $mysqli->query($sql);
                     </tbody>
                 </table>
             </div>
+        </div>
+        <section class="py-5 bg-dark">
+            <a name="trabajos" id="trabajos"></a>
+            <div class="col">
+                <header class="">
+                    <div class="container text-center">
+                        <h2>Patrocinadores</h2>
+                        <br>
+                    </div>
+                </header>
+            </div>
 
+
+            <div class="container overflow-hidden">
+                <div class="row gy-3 justify-content-center">
+                    <div class="col-md-4 col-sm-6 d-flex align-items-strech">
+                        <div class="card cardpatro">
+
+                            <a href="https://www.elpozo.com" target="_blank"><img src="images/elpozo.jpg"
+                                    class="img-thumbnail" alt="ElPozo"></a>
+
+                            <div class="card-body">
+                                <h4 class="card-title">ElPozo</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 d-flex align-items-strech">
+                        <div class="card cardpatro">
+                            <a href="https://www.mercedes-benz.es/passengercars/models.html?group=all&subgroup=all.saloon&view=BODYTYPE"
+                                target="_blank"><img src="images/mercedes.jpg" class="img-thumbnail" alt="Mercedes"></a>
+
+                            <div class="card-body">
+                                <h4 class="card-title">Mercedes</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 d-flex align-items-strech">
+                        <div class="card cardpatro">
+
+                            <a href="https://www.tesla.com/es_es" target="_blank"><img src="images/tesla.jpg"
+                                    class="img-thumbnail" alt="Tesla"></a>
+
+                            <div class="card-body">
+                                <h4 class="card-title">Tesla</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 d-flex align-items-strech">
+                        <div class="card cardpatro">
+
+                            <a href="https://www.finetwork.com" target="_blank"><img src="images/finet.jpg"
+                                    class="img-thumbnail" alt="Finetwork"></a>
+
+                            <div class="card-body">
+                                <h4 class="card-title">Finetwork</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 d-flex align-items-strech">
+                        <div class="card cardpatro">
+
+                            <a href="https://www.riotgames.com/es" target="_blank"><img src="images/riot.jpg"
+                                    class="img-thumbnail" alt="adivina" id="Riot"></a>
+
+                            <div class="card-body">
+                                <h4 class="card-title">Riot</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <a name="contacto" id="contacto"></a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 ">
+                        <h2 class=" d-flex justify-content-center">Contáctanos</h2>
+                        <form class="d-grid gap-3">
+                            <div class="form-group">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" class="form-control" id="email"
+                                    placeholder="Ingresa tu correo electrónico">
+                            </div>
+                            <button type="submit" class="btn btn-dark boton">Enviar</button>
+                        </form>
+                    </div>
+
+        </section>
+
+        <footer class="bg-dark text-white py-3">
+            <div class="container">
+                <div class="row">
+                    <ul class="list-inline text-md-center">
+                        <li class="list-inline-item"><a href="#">Política de privacidad</a></li>
+                        <li class="list-inline-item"><a href="#">Términos y condiciones</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </footer>
 
 
 

@@ -23,7 +23,7 @@ body{
     color: black;
 }
 .table{
-    color:rgb(255, 217, 0);
+    color:black;
 }
 thead{
     color:black;
@@ -44,11 +44,16 @@ thead{
 }
 
 .navbar-brand{
-    color: orange;
+    color: orange !important;
 }
 
 .titulo1{
-    color: black;
+    color: orange;
+    font-size: 2.5rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: orange;
 }
  .table-primary>th {
     background-color: rgb(255, 187, 0) !important;
@@ -100,3 +105,13 @@ footer a:hover, #nav a:hover{
     color: orange;
 }
 
+.link{
+    color:black !important;
+}
+
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
