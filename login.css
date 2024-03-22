@@ -21,9 +21,7 @@
     
 }
 
-.login{
-    padding-top: 300px;
-}
+
 .logo {
     font-size: 2.5rem;
     font-weight: bold;
@@ -86,3 +84,13 @@
     font-size: 0.8rem;
     color: #777;
 } 
+.login {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
