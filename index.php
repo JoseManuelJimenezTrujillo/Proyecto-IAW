@@ -18,7 +18,7 @@
 			<button type="submit" class="button">Iniciar sesión</button>
 		</form>
 		<p>Si aún no tienes cuenta puedes crearla en este link</p>
-        <a href="registrar.php">Crear cuenta</a>
+        <a href="registrar.php" class="signup">Crear cuenta</a>
         </div>
 	</div>
 </body>

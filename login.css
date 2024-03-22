@@ -46,7 +46,7 @@
 .button {
     display: inline-block;
     padding: 0.5rem 1.5rem;
-    background-color: gold;
+    background-color: orange;
     color: black;
     border: none;
     border-radius: 3px;
@@ -71,13 +71,14 @@
 
 .signup {
     font-size: 0.8rem;
-    color: #3b5998;
+    color: #000000;
     margin-bottom: 1rem;
     cursor: pointer;
 }
 
 .signup:hover {
     text-decoration: underline;
+    color: red;
 }
 
 .page-creation {
@@ -88,7 +89,7 @@
     margin: 0 auto;
     text-align: center;
     padding-top: 100px;
-    height: 100vh;
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
