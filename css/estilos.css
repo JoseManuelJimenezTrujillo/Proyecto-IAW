@@ -58,6 +58,9 @@ thead{
 }
 
 a {
+    color: white;
+}
+a:hover{
     color: red;
 }
 
@@ -67,4 +70,22 @@ a {
 
 .cardpatro{
     width: 200px !important;
+}
+
+footer a, #nav a{
+    color: white;
+}
+
+footer a:hover, #nav a:hover{
+    color: red;
+}
+
+.card{
+    background-color: black;
+    color: gold;
+    border-color: gold;
+}
+
+.card-text{
+    color: rgb(255, 255, 255);
 }
