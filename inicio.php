@@ -158,9 +158,9 @@ y le incluido transicionespara hacerla mas atractiva -->
         <div class="container overflow-hidden">
             <div class="row gy-3 justify-content-center">
                 <div class="col-md-4 col-sm-6 d-flex align-items-strech">
-                    <div class="card">
+                    <div class="card cardpatro">
                        
-                            <a href="https://www.elpozo.com" target="_blank" ><img src="images/elpozo.jpg" class="img-thumbnail" alt="montesion"></a>
+                            <a href="https://www.elpozo.com" target="_blank" ><img src="images/elpozo.jpg" class="img-thumbnail" alt="ElPozo"></a>
                  
                         <div class="card-body">
                             <h4 class="card-title">Elpozo</h4>
@@ -168,9 +168,8 @@ y le incluido transicionespara hacerla mas atractiva -->
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 d-flex align-items-strech">
-                    <div class="card">
-                       
-                            <a href="https://www.youtube.com/watch?v=MgKgPniW-5I&t=162s&ab_channel=ManuMontero" target="_blank" ><img src="img/esperanza1.png" class="img-thumbnail" alt="esperanza"></a>
+                    <div class="card cardpatro">
+                            <a href="https://www.mercedes-benz.es/passengercars/models.html?group=all&subgroup=all.saloon&view=BODYTYPE" target="_blank" ><img src="images/mercedes.jpg" class="img-thumbnail" alt="Mercedes"></a>
                        
                         <div class="card-body">
                             <h4 class="card-title">Mercedes</h4>
@@ -178,9 +177,9 @@ y le incluido transicionespara hacerla mas atractiva -->
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 d-flex align-items-strech">
-                    <div class="card">
+                    <div class="card cardpatro">
                         
-                            <a href="https://www.youtube.com/watch?v=0BGDm6EWzEs&ab_channel=ArahalNazarena" target="_blank" ><img src="img/misericordia.jpg" class="img-thumbnail" alt="misericordia"></a>
+                            <a href="https://www.tesla.com/es_es" target="_blank" ><img src="images/tesla.jpg" class="img-thumbnail" alt="Tesla"></a>
                        
                         <div class="card-body">
                             <h4 class="card-title">Tesla</h4>
@@ -188,9 +187,9 @@ y le incluido transicionespara hacerla mas atractiva -->
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 d-flex align-items-strech">
-                    <div class="card">
+                    <div class="card cardpatro">
                        
-                            <a href="https://www.youtube.com/watch?v=O7mJQ_h2ySc&ab_channel=APulso"  target="_blank" ><img src="img/hiniesta.jpg" class="img-thumbnail" alt="hiniesta"></a>
+                            <a href="https://www.finetwork.com"  target="_blank" ><img src="images/finet.jpg" class="img-thumbnail" alt="Finetwork"></a>
                        
                         <div class="card-body">
                             <h4 class="card-title">Finetwork</h4>
@@ -198,9 +197,9 @@ y le incluido transicionespara hacerla mas atractiva -->
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 d-flex align-items-strech">
-                    <div class="card">
+                    <div class="card cardpatro">
                        
-                            <a href="https://www.youtube.com/watch?v=1gUCu2e_JiM&ab_channel=arfasynt~" target="_blank" ><img src="img/2.jpg" class="img-thumbnail" alt="adivina" id="Sorpresa" ></a>
+                            <a href="https://www.riotgames.com/es" target="_blank" ><img src="images/riot.jpg" class="img-thumbnail" alt="adivina" id="Riot" ></a>
                         
                         <div class="card-body">
                             <h4 class="card-title">Riot</h4>

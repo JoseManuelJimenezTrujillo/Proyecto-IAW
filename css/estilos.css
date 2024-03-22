@@ -64,3 +64,7 @@ a {
 .bg-dark{
     background-color: rgb(43, 42, 42) !important;
 }
+
+.cardpatro{
+    width: 200px !important;
+}
