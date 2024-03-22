@@ -146,7 +146,7 @@ $resultado2 = $mysqli->query($sql2);
         <div class="col">
             <header class="">
                 <div class="container text-center">
-                    <h2 class="trabajos">Patrocinadores</h2>
+                    <h2>Patrocinadores</h2>
                     <br>
                 </div>
             </header>

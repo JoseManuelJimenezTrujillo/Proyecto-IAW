@@ -1,17 +1,17 @@
 .nombre {
     font-family:'Times New Roman', Times, serif;
     color: black;
-    background-color: gold;
+    background-color: orange;
     display: flex;
     align-content: center;
     justify-content: center;
 }
 body{
     background-color: rgb(0, 0, 0);
-    color: gold;
+    color: orange;
 }
 .columnas{
-    color: gold;
+    color: orange;
 }
 /* .display{
     color:black;
@@ -59,6 +59,7 @@ thead{
 
 a {
     color: white;
+    text-decoration: none;
 }
 a:hover{
     color: red;
@@ -82,10 +83,20 @@ footer a:hover, #nav a:hover{
 
 .card{
     background-color: black;
-    color: gold;
+    color: orange;
     border-color: gold;
 }
 
 .card-text{
     color: rgb(255, 255, 255);
 }
+
+.card:hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.10);
+}
+
+.boton:hover{
+    color: orange;
+}
+
