@@ -102,7 +102,7 @@ $resultado2 = $mysqli->query($sql2);
             <div class="col">
                 <header class="">
                     <div class="container text-center">
-                        <h2>Secciones</h2>
+                        <h2>Noticias</h2>
                     </div>
                 </header>
             </div>
@@ -116,13 +116,21 @@ $resultado2 = $mysqli->query($sql2);
                     <div class="col-md-6">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Prueba</h4>
-                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
-                                    ducimus dolorem alias harum aperiam ea, natus doloribus dolorum non aspernatur ipsum
-                                    nihil? Quam, cupiditate veritatis pariatur asperiores dicta dolorum optio. </p><br>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-                                    obcaecati consequuntur ducimus quod qui minus sapiente. Incidunt molestias quis
-                                    esse, eveniet ut fugit maiores, recusandae facilis mollitia ipsa minima. Itaque?</p>
+                                <h4 class="card-title">Empieza la temporada de carreras</h4>
+                                <p class="card-text">
+                                    Es tiempo de preparación, de afinar motores y pulir estrategias. La pretemporada de
+                                    carreras ha llegado, un período crucial donde los equipos y pilotos se sumergen en
+                                    un frenesí de trabajo, buscando alcanzar la perfección antes de que las luces del
+                                    semáforo se pongan en verde.</p><br>
+                                <p class="card-text">En los talleres, los mecánicos trabajan sin descanso, afinando cada
+                                    detalle de los potentes bólidos que pronto surcarán los circuitos más exigentes del
+                                    mundo. Cada tornillo, cada componente, es examinado con precisión quirúrgica para
+                                    asegurar un rendimiento óptimo en la pista.
+
+                                    Los pilotos, por su parte, se someten a rigurosos programas de entrenamiento físico
+                                    y mental. Desde sesiones intensivas en simuladores hasta pruebas de resistencia y
+                                    concentración, están decididos a alcanzar su máximo nivel de forma para enfrentar
+                                    los desafíos que les esperan.</p>
                                 <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
                                     <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
@@ -135,19 +143,25 @@ $resultado2 = $mysqli->query($sql2);
                             <div class="card-body">
 
 
-                                <h4 class="card-title">Prueba2</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
-                                    non possimus, blanditiis minima nemo est porro harum aut obcaecati voluptatum
-                                    asperiores excepturi, tempora suscipit numquam odit vero explicabo magnam
-                                    voluptatibus.</p>
-                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
-                                    at ullam natus repellendus expedita eos. Optio blanditiis voluptatibus labore,
-                                    perferendis sunt ipsum temporibus at, tempora cumque animi, vitae explicabo
-                                    repellat! </p>
-                                <span class="fa-stack fa-lg">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fas fa-thumbs-up fa-stack-1x fa-inverse"></i>
-                                </span>
+                                <h4 class="card-title">Se une un nuevo competidor</h4>
+                                <p class="card-text">La emoción está en el aire mientras el mundo de las carreras recibe
+                                    a un nuevo competidor. Con paso firme y determinación en la mirada, este recién
+                                    llegado irrumpe en el escenario, listo para desafiar a los titanes que dominan las
+                                    pistas.</p>
+                                <p class="card-text">Desde los talleres hasta los paddocks, el rumor se propaga
+                                    rápidamente: hay un nuevo contendiente en la arena. Los equipos rivales observan con
+                                    curiosidad, evaluando su potencial y anticipando cómo podría alterar el equilibrio
+                                    de poder en la competición. Para el nuevo competidor, cada vuelta es una oportunidad
+                                    para demostrar su valía,para dejar una marca indeleble en el asfalto y en la mente
+                                    de sus adversarios.Con un enfoque implacable y una sed insaciable de victoria, se
+                                    prepara para desafiar las probabilidades y conquistar el respeto de sus pares.Los
+                                    aficionados también están cautivados por la llegada de este nuevo talento. Con
+                                    expectativas elevadas y corazones rebosantes de esperanza, observan con atención
+                                    cada movimiento, ansiosos por presenciar la evolución de este intrépido aspirante.
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fas fa-thumbs-up fa-stack-1x fa-inverse"></i>
+                                    </span>
                             </div>
                         </div>
                     </div>
