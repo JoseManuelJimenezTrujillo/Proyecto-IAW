@@ -190,7 +190,7 @@ $fila2 = $resultado2->fetch_assoc();
         } else {
         ?>
             <div class="d-flex flex-column ">
-                <img src="images/sonic.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
+                <img src="images/minigt.jpg" alt="grande" style="width: 50%;" class="align-self-center align-self-xl-center align-self-lg-center align-self-md-center align-self-sm-center">
             </div>
         <?php
         }
