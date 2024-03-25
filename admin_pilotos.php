@@ -37,7 +37,8 @@ $resultado = $mysqli->query($sql);
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="panel_de_control.php">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="panel_de_control.php">Inicio <span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -59,7 +60,7 @@ $resultado = $mysqli->query($sql);
 </head>
 
 <body>
-   
+
     <div class="container-fluid ">
         <div class="d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center"
             style="width:100%">
@@ -91,11 +92,13 @@ $resultado = $mysqli->query($sql);
                         ?>
                     </tbody>
                 </table>
+                <div class="container row">
+                    <a class='btn btn-primary d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center'
+                        href='registrar_piloto.php'>Añadir Piloto</a>
+                </div>
             </div>
         </div>
-        <div class="container row">
-        <a class='btn btn-primary d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center' href='registrar_piloto.php'>Añadir Piloto</a>
-    </div>
+
 
 
     </div>
