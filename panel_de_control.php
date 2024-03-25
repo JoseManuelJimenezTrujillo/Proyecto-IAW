@@ -48,8 +48,7 @@ $resultado2 = $mysqli->query($sql2);
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="clasificación.php">Clasificación</a>
-                            <a class="dropdown-item" href="pilotos.php">Pilotos</a>
-                            <a class="dropdown-item" href="admin_pilotos.php">Añadir/modificar/eliminar pilotos</a>
+                            <a class="dropdown-item" href="admin_pilotos.php">Administrar pilotos</a>
                             <a class="dropdown-item" href="carrera.php">Carrera</a>
                         </div>
                     </li>
