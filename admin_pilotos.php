@@ -27,8 +27,7 @@ $resultado = $mysqli->query($sql);
     <title>Crazy-Drivers</title>
 
     <header>
-
-        <nav class="navbar navbar-expand-lg navbar bg-dark">
+        <nav class="navbar navbar-expand-lg navbar navbar-negro">
             <h1 class="navbar-brand">Crazy-Drivers</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +37,7 @@ $resultado = $mysqli->query($sql);
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="inicio.php">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="panel_de_control.php">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -47,7 +46,9 @@ $resultado = $mysqli->query($sql);
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="clasificación.php">Clasificación</a>
-
+                            <a class="dropdown-item" href="pilotos.php">Pilotos</a>
+                            <a class="dropdown-item" href="admin_pilotos.php">Añadir/modificar/eliminar pilotos</a>
+                            <a class="dropdown-item" href="carrera.php">Carrera</a>
                         </div>
                     </li>
                 </ul>
