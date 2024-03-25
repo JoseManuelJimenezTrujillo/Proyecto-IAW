@@ -1,12 +1,13 @@
 <?php
-require 'conexion.php';
-$sql = "SELECT * FROM pilotos";
-$resultado = $mysqli->query($sql);
+        //ESTABLEZCO CONEXION
+        require 'conexion.php';
+		$id=$_GET['id'];
+		$sql = "SELECT * from pilotos where id_piloto=$id LIMIT 1";
+		$resultado = $mysqli->query($sql);
+		$fila = $resultado->fetch_assoc();
 ?>
-
 <!doctype html>
 <html lang="es">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -58,61 +59,33 @@ $resultado = $mysqli->query($sql);
     </header>
 
 </head>
-
-<body>
-
-    <div class="container-fluid ">
-        <div class="d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center"
-            style="width:100%">
-
-            <div class="tabla alig-items-center " style="width:85%; margin: auto;">
-                <h1
-                    class="titulo1 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center">
-                    Pilotos</h1>
-                <table id="tabla" class="table table-primary " style="width:100%">
-                    <thead>
-                        <tr class="table-primary">
-                            <th>Nombre</th>
-                            <th>Banda</th>
-                            <th></th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php
-
-                        while ($fila = $resultado->fetch_assoc()) {
-                            echo "<tr class='table'>";
-                            echo "<td><a href='garage.php?id=$fila[id_piloto]' class='link'>$fila[Nombre]</a></td>";
-                            echo "<td>$fila[Equipo]</td>";
-                            echo "<td><a class='btn btn-danger' href='eliminar.php?id=$fila[id_piloto]'>Eliminar</a></td>";
-                            echo "<td><a class='btn btn-warning'href='modificar_piloto.php?id=$fila[id_piloto]'>Modificar piloto</a></td>";
-                            echo "</tr>";
-                        }
-                        ?>
-                    </tbody>
-                </table>
-               
-            </div>
-        </div>
-
-
-
-    </div>
-    <footer class="bg-dark text-white py-3 footer">
-        <div class="container">
-            <div class="row">
-                <ul class="list-inline text-md-center">
-                    <li class="list-inline-item"><a href="#">Política de privacidad</a></li>
-                    <li class="list-inline-item"><a href="#">Términos y condiciones</a></li>
-                </ul>
-
-            </div>
-        </div>
-    </footer>
-
-
-
-</body>
-
-</html>
+	<body>
+    <div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<!-- Completar atributos de form -->
+					<form id="registro" name="registro" autocomplete="off" action="modificar_piloto2.php" method="Post">
+						<div class="form-group">
+							<label>Nombre<input type="text" class="form-control"name="nombre" maxlength="50" required value="<?php echo $fila['Nombre']; ?>"></label>
+							<input type="hidden" name="id" value="<?php echo $fila['id_piloto'];?>"> 
+						</div>
+						
+						<div class="form-group">
+							<label>Banda<input type="text" class="form-control" name="banda" required value="<?php echo $fila['Equipo']; ?>"></label>
+						</div>
+						
+						<div class="form-group">
+						<input type="submit" class='btn btn-primary' value="Confirmar cambios" >
+							
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery-3.4.1.min.js" ></script>
+		<script src="js/bootstrap.min.js" ></script>
+	</body>
+</html>				

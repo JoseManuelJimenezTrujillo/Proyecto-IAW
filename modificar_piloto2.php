@@ -1,9 +1,3 @@
-<?php
-require 'conexion.php';
-$sql = "SELECT * FROM pilotos";
-$resultado = $mysqli->query($sql);
-?>
-
 <!doctype html>
 <html lang="es">
 
@@ -60,58 +54,29 @@ $resultado = $mysqli->query($sql);
 </head>
 
 <body>
+    <?php
+    //ESTABLEZCO CONEXION
+    require 'conexion.php';
 
-    <div class="container-fluid ">
-        <div class="d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center"
-            style="width:100%">
+    //obtengo los datos introducidos en el formulario anterior
+    $id = $_POST['id'];
+    $nombre = $_POST['nombre'];
+    $banda = $_POST['banda'];
 
-            <div class="tabla alig-items-center " style="width:85%; margin: auto;">
-                <h1
-                    class="titulo1 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center">
-                    Pilotos</h1>
-                <table id="tabla" class="table table-primary " style="width:100%">
-                    <thead>
-                        <tr class="table-primary">
-                            <th>Nombre</th>
-                            <th>Banda</th>
-                            <th></th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php
+    //se prepara la sentencia sql
+    $sql = "UPDATE pilotos SET Nombre='$nombre', Equipo='$banda' WHERE id_piloto=$id";
+    //se ejecuta la sentencia y se gurada el resultado en resultado
+    $resultado = $mysqli->query($sql);
 
-                        while ($fila = $resultado->fetch_assoc()) {
-                            echo "<tr class='table'>";
-                            echo "<td><a href='garage.php?id=$fila[id_piloto]' class='link'>$fila[Nombre]</a></td>";
-                            echo "<td>$fila[Equipo]</td>";
-                            echo "<td><a class='btn btn-danger' href='eliminar.php?id=$fila[id_piloto]'>Eliminar</a></td>";
-                            echo "<td><a class='btn btn-warning'href='modificar_piloto.php?id=$fila[id_piloto]'>Modificar piloto</a></td>";
-                            echo "</tr>";
-                        }
-                        ?>
-                    </tbody>
-                </table>
-               
-            </div>
-        </div>
+    if ($resultado > 0) {
+        header("location: panel_de_control.php");
+    } else {
+        echo "<p class='alert alert-danger'>Ha habido un error</p>";
+    }
+    echo "<p><a class='btn btn-primary' href='index.php'>Regresar</a></p>";
 
 
-
-    </div>
-    <footer class="bg-dark text-white py-3 footer">
-        <div class="container">
-            <div class="row">
-                <ul class="list-inline text-md-center">
-                    <li class="list-inline-item"><a href="#">Política de privacidad</a></li>
-                    <li class="list-inline-item"><a href="#">Términos y condiciones</a></li>
-                </ul>
-
-            </div>
-        </div>
-    </footer>
-
-
+    ?>
 
 </body>
 
