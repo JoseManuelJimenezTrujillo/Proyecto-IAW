@@ -159,25 +159,9 @@ $resultado = $mysqli->query($sql);
             </div>
         </section>
 
-        <section class="py-5">
-            <a name="contacto" id="contacto"></a>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 ">
-                        <h2 class=" d-flex justify-content-center">Contáctanos</h2>
-                        <form class="d-grid gap-3">
-                            <div class="form-group">
-                                <label for="email">Correo electrónico</label>
-                                <input type="email" class="form-control" id="email"
-                                    placeholder="Ingresa tu correo electrónico">
-                            </div>
-                            <button type="submit" class="btn btn-dark boton">Enviar</button>
-                        </form>
-                    </div>
-
-        </section>
-
-        <footer class="bg-dark text-white py-3">
+       
+    </div>
+        <footer class="bg-dark text-white py-3 footer">
             <div class="container">
                 <div class="row">
                     <ul class="list-inline text-md-center">

@@ -108,10 +108,16 @@ footer a:hover, #nav a:hover{
 .link{
     color:black !important;
 }
-
+.link:hover{
+    color:red !important;
+}
 .d-flex {
     display: -ms-flexbox!important;
     display: flex!important;
     align-items: center;
     justify-content: center;
+}
+
+.footer{
+    margin-top: 10px !important;
 }
